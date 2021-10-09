@@ -1,0 +1,35 @@
+{
+  "name": "react-native-radio-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist;tsc",
+    "reinstall-npm": "rm -rf node_modules;yarn install --ignore-engines",
+    "init": "tsc -init"
+  },
+  "keywords": [
+    "react-native",
+    "checkbox",
+    "radiobutton",
+    "radiogroup",
+    "android",
+    "ios",
+    "check box",
+    "radio button",
+    "radio group"
+  ],
+  "repository": "git@github.com:qztbl/react-native-radio-check.git",
+  "homepage": "https://github.com/qztbl/react-native-radio-check#readme",
+  "author": "qztbl",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.24",
+    "@types/react-native": "^0.65.1",
+    "react": "^17.0.2",
+    "react-native": "^0.65.1",
+    "typescript": "^4.4.3"
+  }
+}
