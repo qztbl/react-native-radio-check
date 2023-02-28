@@ -101,6 +101,7 @@ export default class RadioButton extends React.Component<RadioButtonProps, Radio
 
 
 interface RadioGroupProps {
+  children?: React.ReactNode
   style?: StyleProp<ViewStyle>
   icon?: RadioIcon
   iconStyle?: StyleProp<ImageStyle>
